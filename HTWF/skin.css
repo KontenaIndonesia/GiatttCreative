@@ -5052,3 +5052,26 @@ label.label-for-setting {
         .step ul li:first-child:after{
           content:none;
         }
+
+        .lock-subscription {
+            max-height: 268px;
+            overflow: hidden;
+            background: #fff;
+            opacity: 0.1;
+        }
+
+        .perks-subscription-notif {
+            background: #eaf5f9;
+            padding: 20px;
+            position: relative;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .perks-subscription-notif p {
+            font-size: 17px;
+        }
+
+        .padding-bottom-30 {
+            padding-bottom: 30px !important;
+        }
