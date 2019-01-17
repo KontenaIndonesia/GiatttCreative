@@ -4060,6 +4060,12 @@ TEXT LIST
         padding: 10px 0 10px 110px;
     }
 
+    @media screen and (max-width: 419px) {
+        .list-item-img .col-md-9 {
+            padding: 10px 0 10px 10px;
+        }
+      }
+
     .list-item-img .col-md-3 {
         padding-top: 10px;
     }
@@ -7289,6 +7295,12 @@ VARIOUS
 
     a + .space + a {
         margin-top: 10px;
+    }
+}
+
+@media (max-width: 419px){
+    a + .space + a {
+        margin-top: 0px;
     }
 }
 /*
