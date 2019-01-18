@@ -280,7 +280,7 @@ body.snip-open {
 }
 
 th.snip-table__cell--center, td.snip-table__cell--center {
-    display: none;
+    display: ;
 }
 
 .snip-layout .snipcart-step--inner-loading .snip-layout__loading {
@@ -392,7 +392,7 @@ span#snipcart-amount {
 .snip-layout .snip-header__total-label {
     color: #fff;
     margin-right: .625em;
-    text-transform: lowercase;
+    text-transform: capitalize;
     letter-spacing: 0.9px;
     font-weight: 100;
 }
@@ -718,7 +718,7 @@ p.snip-step__label {
 }
 
 .snip-layout .snip-quantity-trigger__btn {
-	background-color: #ccc;
+	background-color: #fff;
 	border-radius: 30px;
 	color: inherit;
 	float: left;
@@ -729,7 +729,7 @@ p.snip-step__label {
 }
 
 .snip-layout .snip-quantity-trigger__btn:hover {
-	background-color: #efe778
+	background-color: #fff;
 }
 
 .snip-layout .snip-quantity-trigger__btn:before {
@@ -740,12 +740,19 @@ p.snip-step__label {
 
 .snip-layout .snip-quantity-trigger__btn--add:before {
 	content: "+";
-	line-height: 1em
+    line-height: 1em;
+    text-align: center;
+    position: relative;
+    display: block;
+    color: #4FD47E;
 }
 
 .snip-layout .snip-quantity-trigger__btn--minus:before {
 	content: "-";
-	line-height: 14px
+	text-align: center;
+    position: relative;
+    display: block;
+    color: #4FD47E;
 }
 
 .snip-layout .snip-quantity-trigger__btn--disabled {
