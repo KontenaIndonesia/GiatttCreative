@@ -4080,7 +4080,7 @@ img.image-scroll-active-img {
 
 .scroll-project-active {
     bottom: 55%;
-    z-index: 122222;
+    z-index: 1;
     right: 20%;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.13);
     background: #205D76;
@@ -5124,10 +5124,4 @@ label.label-for-setting {
 
         .height-238 {
             max-height: 238px !important;
-        }
-
-        .label-image {
-            display: block;
-            background: #205d76;
-            color: #fff;
         }
