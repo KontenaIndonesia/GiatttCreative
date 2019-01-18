@@ -4433,7 +4433,7 @@ img.eapps-instagram-feed-posts-item-image {
 .title-featured-project {
     font-size: 1.5em;
     letter-spacing: 1.2px;
-    font-weight: 200;
+    font-weight: 600;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -5102,3 +5102,32 @@ label.label-for-setting {
                 font-size: 14px;
             }
           }
+
+          .size-18 {
+            font-size: 18px;
+            letter-spacing: 0px;
+            font-weight: 600;
+            line-height: 22px;
+        }
+
+        .underline:hover {
+            text-decoration: underline;
+        }
+
+        .height-8 {
+            height: 8px;
+        }
+
+        .bg-62d4d4 {
+            background: #62d4d4;
+        }
+
+        .height-238 {
+            max-height: 238px !important;
+        }
+
+        .label-image {
+            display: block;
+            background: #205d76;
+            color: #fff;
+        }
