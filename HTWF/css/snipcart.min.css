@@ -358,7 +358,8 @@ th.snip-table__cell--center, td.snip-table__cell--center {
 	background: #111;
 	font-size: 14px;
 	padding: .714em 1.429em;
-	text-align: center
+    text-align: center;
+    border-radius: 0px;
 }
 
 .snip-layout .snip-header__user-text {
