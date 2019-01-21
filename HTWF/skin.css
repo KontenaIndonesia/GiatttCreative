@@ -4057,6 +4057,13 @@ button.active-now {
     }
   }
 
+  @media screen and (max-width: 419px) {
+    #projects button.sticky-menu-yes {
+        padding: 25px 15px 10px 15px;
+    }
+  }
+
+
 #projects .margin-left-13-plus, #profile .margin-left-13-plus {
     margin-left: 0%;
 }
@@ -4182,11 +4189,11 @@ img.image-scroll-active-img {
     display: none;
 }
 
-@media screen and (max-width: 419px) {
+/*@media screen and (max-width: 419px) {
     .tablink-right {
         display: none;
     }
-  }
+  }*/
 
 a.pledge-button {
     width: 100%;
@@ -5276,4 +5283,27 @@ label.label-for-setting {
 
         .group-blog-rating {
             text-align: center;
+        }
+
+        img.blog-writer-image {
+            height: 43px;
+            width: 43px;
+            border-radius: 25px;
+        }
+
+        .bog-writer-name {
+            display: block;
+            margin-top: -41px;
+            margin-left: 56px;
+            font-size: 10.5px;
+            color: #205d76 !important;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
+
+        .bog-writer-name-jobs {
+            display: block;
+            margin-top: -37px;
+            margin-left: 57px;
         }
