@@ -21,6 +21,13 @@ body {
         padding: 5% 10%;
         }
 
+        @media screen and (max-width: 419px) {
+            #payment .container {
+                width: 100%;
+                padding: 0% 0.5%;
+            }
+          }
+
         h1 {
         align-self: center;
         }
@@ -180,6 +187,12 @@ body {
             margin-bottom: 10%;
         }
 
+        @media (max-width: 419px) {
+            #payment .step-by-step {
+                display: block;
+            }
+        }
+
         .step-33-persen {
             width: 29.3333%;
             padding: 10px;
@@ -204,6 +217,14 @@ body {
             }
         }
 
+        @media (max-width: 419px) {
+            #payment .step-33-persen {
+                width: 94.6%;
+                display: inline-block;
+                margin-bottom: 5px;
+            }
+        }
+
         .active-now {
             background: #edac09 !important;
         }
@@ -225,6 +246,12 @@ body {
             position: relative;
             right: 0;
         }
+
+        @media screen and (max-width: 419px) {
+            .back-to::before {
+                display: none;
+            }
+          }
 
         .simpleCart_items {
             display: block;
@@ -364,6 +391,18 @@ body {
             position: relative;
             right: 0;
         }
+
+        @media screen and (max-width: 419px) {
+            .continue::after {
+                display: none;
+            }
+          }
+
+          @media screen and (max-width: 419px) {
+            .fa-credit-card:before {
+                display: none;
+            }
+          }
 
         .tax-information {
             clear: both;
