@@ -4178,6 +4178,10 @@ img.image-scroll-active-img {
     top: 2.49px;
 }
 
+#blog .tablink-right::after {
+    display: none;
+}
+
 @media screen and (max-width: 419px) {
     .tablink-right {
         display: none;
@@ -4454,6 +4458,11 @@ img.eapps-instagram-feed-posts-item-image {
     font-size: 14px !important;
 }
 
+#blog .featured-preview-text {
+    -webkit-line-clamp: 3;
+    max-height: 70px;
+}
+
 .padding-none {
     padding: 0px !important;
 }
@@ -4602,7 +4611,7 @@ a.title-featured-project-upcoming {
     margin-right: -4px;
 }
 
-#projects .total-plaged, #profile .total-plaged, #services .total-plaged {
+#projects .total-plaged, #profile .total-plaged, #services .total-plaged, #blog .total-plaged {
     font-size: 15.5px !important;
 }
 
@@ -5141,7 +5150,7 @@ label.label-for-setting {
           }
 
           ul.breadcrumb li+li:before {
-            padding: 8px;
+            padding: 0px;
             color: #999;
             content: "/\00a0";
           }
@@ -5203,4 +5212,68 @@ label.label-for-setting {
 
         .color-999 {
             color: #999 !important;
+        }
+
+        .color-ffc122 {
+            color: #ffc122 !important;
+        }
+
+        .h2-blog-top {
+            font-size: 3em;
+            line-height: 1;
+            color: #31759A;
+        }
+
+        @media screen and (max-width: 419px) {
+            .h2-blog-top {
+                font-size: 2em;
+            }
+          }
+        
+          @media screen and (max-width: 419px) {
+            .margin-top-0 {
+                margin-top: 0px !important;
+            }
+          }
+
+        .bg-FDFEEC {
+            background: #FDFEEC !important;
+        }
+
+        p.p-blog-top {
+            color: #FF2D6E;
+            line-height: 1.5;
+        }
+
+        .span-blog {
+            display: inline;
+            font-size: 10.5px;
+            color: #999 !important;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
+
+        .padding-left-none {
+            padding-left: 0px !important;
+        }
+
+        .font-16 {
+            font-size: 16px !important;
+        }
+
+        .margin-right-minus-38 {
+            margin-right: -38px !important;
+        }
+
+        .padding-top-20 {
+            padding-top: 20px !important;
+        }
+
+        .checked {
+            color: orange;
+        }
+
+        .group-blog-rating {
+            text-align: center;
         }
