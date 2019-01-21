@@ -5307,3 +5307,43 @@ label.label-for-setting {
             margin-top: -37px;
             margin-left: 57px;
         }
+
+        .cta-to-cart-services svg {
+            margin-top: -16px;
+        }
+
+        .cta-to-cart-services .sup-button-cart {
+            top: -11px;
+            right: -3px;
+        }
+
+        @media screen and (max-width: 419px) {
+            #services .cta-to-cart-services {
+                display: inline-block;
+                border-bottom: 1px solid #205d76;
+            }
+          }
+
+          @media screen and (max-width: 419px) {
+            #profile .cta-to-cart-services {
+                display: inline-block;
+                border-bottom: 1px solid #205d76;
+            }
+          }
+          
+        .cta-to-cart-services {
+            display: none;
+        }
+
+          @media screen and (max-width: 419px) {
+            #services .tablink-right {
+                display: none;
+            }
+          }
+
+          @media screen and (max-width: 419px) {
+            #profile .tablink-right {
+                display: none;
+            }
+
+          }
