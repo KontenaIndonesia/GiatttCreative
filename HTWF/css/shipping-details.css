@@ -199,6 +199,9 @@ body {
                 display: inline-block;
                 margin-bottom: 5px;
             }
+            #summary .step-33-persen {
+                width: 100% !important;
+            }
         }
 
         .active-now {
@@ -482,4 +485,8 @@ body {
 
         b.simpleCart_grandTotal {
             font-size: 14px;
+        }
+
+        .display-none {
+            display: none;
         }

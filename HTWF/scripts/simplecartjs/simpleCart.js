@@ -89,7 +89,8 @@
 						type: "PayPal", 
 						email: "dana@giattt.com", 
 						success: "https://giattt.com/order/success.html", 
-						cancel: "https://giattt.com/order/failed.html", 
+						cancel: "https://giattt.com/order/failed.html",
+						sandbox: true, 
 					},
 					currency				: "USD",
 					language				: "english-us",
@@ -114,14 +115,13 @@
 					shippingTotalRate		: 0,
 					shippingCustom		: null,
 
-					taxRate				: 0.15,
+					taxRate				: 0,
 					
 					taxShipping			: false,
 
 					data				: {}
 
 				},
-
 
 				// main simpleCart object, function call is used for setting options
 
@@ -142,11 +142,6 @@
 
 				// built in cart views for item cells
 				cartColumnViews;
-
-				// Redirect to checkout
-				simpleCart.bind( "afterAdd" , function(){
-					window.location.href = '../checkout.html'
-				}),
 
 			// function for extending objects
 			simpleCart.extend = function (target, opts) {
@@ -494,6 +489,32 @@
 						// bind if not ready
 						} else {
 							simpleCart.bind('ready', fn);
+
+							// redirect to affter add item to contact details
+							simpleCart.bind( "afterAdd" , function(){
+								window.location.href = '../order/shipping-details.html'
+							});
+
+							// maximum add to cart is single item
+							simpleCart.bind( 'beforeAdd' , function( item ){
+
+								if(simpleCart.quantity() >= 2 ){
+							
+									 alert("Hi there. You can add 2 items only. Let's click the paypal logo at the top right to complete your perks before."); 
+									 return false;
+							
+								}
+							
+							});
+
+							// rename item if added before
+							// simpleCart.bind('beforeAdd', function (newitem) {
+							//	simpleCart.each(function (cartitem) {
+							//		if (cartitem.get("name") === newitem.get("name")) {
+							//			cartitem.remove();
+							//		}
+							//	});
+							//});
 						}
 
 					// trigger ready event
@@ -516,7 +537,6 @@
 					simpleCart.trigger('error', [message]);
 				}
 			});
-
 
 			/*******************************************************************
 			 *	TAX AND SHIPPING
