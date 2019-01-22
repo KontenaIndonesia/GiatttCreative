@@ -5135,7 +5135,7 @@ label.label-for-setting {
         }
 
         .height-238 {
-            max-height: 238px !important;
+            max-height: 338px !important;
         }
 
         ul.breadcrumb {
@@ -5346,4 +5346,8 @@ label.label-for-setting {
                 display: none;
             }
 
+          }
+
+          .z-index-minus-1 {
+              z-index: -1;
           }
