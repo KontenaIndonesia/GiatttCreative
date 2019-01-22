@@ -74,6 +74,13 @@ body {
             text-align: center;
         }
 
+        @media screen and (max-width: 419px) {
+            form h1 {
+                font-size: 18px;
+            }
+
+          }
+
         form h1:nth-of-type(2) {
         margin-top: 10%;
         }
@@ -379,6 +386,13 @@ body {
             text-transform: uppercase;
             text-align: center;
         }
+
+        @media screen and (max-width: 419px) {
+            .summary-h1 {
+                font-size: 18px;
+            }
+
+          }
 
         .fa-cookie-bite:before {
             content: "\f564";
