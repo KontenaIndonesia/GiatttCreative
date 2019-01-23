@@ -4550,7 +4550,7 @@ a.title-featured-project-upcoming {
 }
 
 .div-scroll-top-bottom-active {
-    max-height: 400px;
+    max-height: 413px;
     overflow-x: scroll;
 }
 
@@ -5135,7 +5135,7 @@ label.label-for-setting {
         }
 
         .height-238 {
-            max-height: 338px !important;
+            max-height: 305px !important;
         }
 
         ul.breadcrumb {
@@ -5352,57 +5352,17 @@ label.label-for-setting {
               z-index: -1;
           }
 
-          li.icon-category {
-            list-style-type: none;
-            text-align: center;
-            float: left;
-            width: 90px;
-            height: auto;
-            font-size: 11px;
-        }
-
-        .text-category {
-            display: block;
-            position: relative;
-            margin-top: -21px;
-            font-weight: 400;
-            text-transform: capitalize;
-            text-align: center;
-        }
-
-        #projects .heigh-width-promo {
-            height: 291px;
-            width: auto;
-        }
-
-        @media screen and (max-width: 419px) {
-            #projects .heigh-width-promo {
-                height: 161px;
-                width: auto;
-            }
-
+          .box-profile-desc {
+            -webkit-line-clamp: 2;
           }
 
-        #projects .caption {
-            background-color: #205d76;
-            background: linear-gradient(#e66465, #9198e5);
+          #projects .advs-box {
+            padding: 16px;
+            border: 0.5px solid #eee;
+            margin: 5px 5px 10px;
         }
 
-        .image-projects {
-            margin-top: -18px;
-        }
-
-        .edit-position-category-span {
-            padding-left: 48px !important;
-            margin-bottom: -13px !important;
-            margin-top: 9px !important;
-        }
-
-        .margin-top-minus-projects-list {
-            margin-top: -18px !important;
-        }
-
-        #projects .fa-wikipedia-w:before {
-            content: "\f266";
-            display: none;
+        #projects .advs-box .tag-row{
+            margin: 10px 0 0px;
+            text-align: center;
         }
