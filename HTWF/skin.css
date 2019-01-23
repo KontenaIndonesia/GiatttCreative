@@ -5207,11 +5207,11 @@ label.label-for-setting {
 
         .group-cta-for-blog {
             padding-top: 20px;
-            background: #f2f2f2;
+            background: #fbfbfb;
         }
 
         .bg-f2f2f2 {
-            background: #f2f2f2;
+            background: #fbfbfb;
         }
 
         .padding-bottom-20 {
@@ -5410,4 +5410,36 @@ label.label-for-setting {
           .font-small-x {
             font-size: 13px !important;
             line-height: 17px !important;
+        }
+
+        .font-playfair-display {
+            font-family: 'Playfair Display', serif !important;
+            letter-spacing: 0.6px;
+        }
+
+        img.image-profile-blog {
+            border-radius: 52px;
+            margin-right: -25px;
+            border: 1px solid #ccc;
+        }
+
+        .border-button-style {
+            border: 1.5px solid #205d76;
+            background: #fff;
+            color: #205d76;
+            text-transform: uppercase;
+            font-size: 10px;
+            font-weight: 500;
+            letter-spacing: 0.6px;
+        }
+
+        .border-button-style::after {
+            content: "\276f";
+            color: #205d76;
+            padding: 5px;
+        }
+
+        .border-button-style:hover {
+            border: 1.5px solid #fff !important;
+            background: #fff !important;
         }
