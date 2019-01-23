@@ -5443,3 +5443,10 @@ label.label-for-setting {
             border: 1.5px solid #fff !important;
             background: #fff !important;
         }
+
+        @media screen and (max-width: 419px) {
+            #mobile-display-none {
+                display: none;
+            }
+
+          }
