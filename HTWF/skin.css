@@ -5750,6 +5750,16 @@ label.label-for-setting {
             border-radius: 0px 5px 0px 0px;
         }
 
+        .border-top-right-mobile {
+            border-radius: 0px 0px 0px 0px;
+        }
+
+        @media screen and (max-width: 419px) {
+            .border-top-right-mobile {
+                border-radius: 0px 5px 0px 0px;
+            }
+        }
+
         .color-ccc {
             color: #ccc;
         }
@@ -5760,23 +5770,28 @@ label.label-for-setting {
 
         .footer-hero-image {
             background-image: url(https://adixazoden.cloudimg.io/cdn/n/n/https://drive.google.com/uc?id=1XfNcVCko9dCUzfKsTtT5B5IBb6gBVKd2);
-            background-size: 100% auto;
-            padding-bottom: 0;
-            background-position: center bottom;
             background-repeat: no-repeat;
+            background-size: cover;
+            /*padding-bottom: 0;
+            background-position: center bottom;
             position: relative;
             min-height: 0;
-            height: 430px;
+            height: 430px;*/
+            
         }
 
         p.p-footer-link {
             font-size: 11px;
-            color: #888;
+            color: #595959;
         }
 
         a.footer-link {
             font-size: 11px;
-            color: #888;
+            color: #595959;
             text-decoration: underline;
             padding: 2px;
+        }
+
+        .color-595959 {
+            color: #595959;
         }
