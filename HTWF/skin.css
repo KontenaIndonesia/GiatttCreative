@@ -5858,3 +5858,15 @@ label.label-for-setting {
             margin-left: -8px;
         }
 
+        .group-feedback-reward {
+            border: 0px dashed #f2f2f2;
+            border-radius: 8px;
+        }
+
+        .padding-40 {
+            padding: 40px;
+        }
+
+        .z-index-2 {
+            z-index: 2;
+        }
