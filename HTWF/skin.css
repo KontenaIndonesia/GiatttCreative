@@ -5870,3 +5870,36 @@ label.label-for-setting {
         .z-index-2 {
             z-index: 2;
         }
+
+        .details-button {
+            background: #fff;
+            color: #888;
+            font-size: 12px;
+            font-weight: 200;
+            border: 1px solid #f2f2f2;
+            border-radius: 3px;
+            padding: 5px 15px;
+        }
+
+        #services .details-button:hover {
+            background-color: #205d76 !important;
+            color: #fff !important;
+            border: 1px solid #205d76 !important;
+            box-shadow: none !important;
+        }
+
+        .box-shadow-none {
+            box-shadow: none !important;
+        }
+
+        .border-none {
+            border: none !important;
+        }
+
+        a.report {
+            padding: 2px 8px;
+            border: 1px solid #595959;
+            text-decoration: none;
+            border-radius: 1px;
+            font-size: 9px;
+        }
