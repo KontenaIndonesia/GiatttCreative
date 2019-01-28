@@ -5551,12 +5551,20 @@ label.label-for-setting {
             width: 99px;
         }
 
+        .width-120 {
+            width: 120px;
+        }
+
         .border-1-solid-E1E3DF {
             border: 1px solid #e1e3df;
         }
 
         .margin-top-minus-39 {
             margin-top: -39px;
+        }
+
+        .margin-top-minus-60 {
+            margin-top: -60px;
         }
 
         .border-radius-3 {
@@ -5842,4 +5850,11 @@ label.label-for-setting {
             }
         }
 
-        
+        sup.logo-sup-notif {
+            font-family: 'Playfair Display', serif !important;
+            font-weight: 700;
+            letter-spacing: 0.9px;
+            color: #ff623b;
+            margin-left: -8px;
+        }
+
