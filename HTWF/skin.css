@@ -5722,7 +5722,7 @@ label.label-for-setting {
 
         .hero {
             background-color: #FFF;
-            background-image: url(https://adixazoden.cloudimg.io/cdn/n/n/https://drive.google.com/uc?id=1-XSna6hNBGiiPOs3VKckl0ZSbQ6CzKx1);
+            background-image: url(https://adixazoden.cloudimg.io/cdn/n/n/https://drive.google.com/uc?id=1DtMTKXKGduVfO2jDqHQ4d9nExI-6lG-k);
             background-repeat: no-repeat;
         }
 
@@ -5973,5 +5973,5 @@ label.label-for-setting {
         }
 
         .width-auto {
-            width: auto;
+            width: auto !important;
         }
