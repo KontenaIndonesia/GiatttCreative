@@ -4491,6 +4491,10 @@ img.eapps-instagram-feed-posts-item-image {
     padding-left: 20px !important;
 }
 
+.padding-right-20 {
+    padding-right: 20px !important;
+}
+
 .size-small {
     font-size: 14px !important;
     font-weight: 100;
@@ -5210,6 +5214,10 @@ label.label-for-setting {
 
         .margin-right-0 {
             margin-right: 0px;
+        }
+
+        .margin-right-20 {
+            margin-right: 20px;
         }
 
         .group-cta-for-blog {
@@ -5959,6 +5967,10 @@ label.label-for-setting {
             margin-top: -14px;
         }
 
+        .margin-top-minus-40 {
+            margin-top: -40px;
+        }
+
         .margin-top-minus-9 {
             margin-top: -9px;
             display: block;
@@ -5974,4 +5986,55 @@ label.label-for-setting {
 
         .width-auto {
             width: auto !important;
+        }
+
+        .width-40 {
+            width: 40px;
+        }
+
+        .float-right {
+            float: right;
+        }
+
+        .octopus-fisher {
+            background: #fff;
+            margin-top: -75px;
+            display: block;
+            position: relative;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        @media screen and (max-width: 419px) {
+            .octopus-fisher {
+                display: none; 
+            }
+        }
+
+        span.badge-26e27 {
+            position: absolute;
+            margin-left: 3px;
+        }
+
+        .label-fisher {
+            text-transform: uppercase;
+            letter-spacing: 1.4px;
+            font-size: 9px;
+            padding: 0px;
+            margin: 0px 0px 0px 0px;
+            color: #00B27D;
+            font-weight: 00 !important;
+        }
+
+        .badge-footer-112345 {
+            margin-top: 3px;
+            margin-left: 5px !important;
+        }
+
+        .color-FF623B {
+            color: #FF623B;
+        }
+
+        .color-000 {
+            color: #000;
         }
