@@ -6056,11 +6056,91 @@ label.label-for-setting {
 
         .content-group-press-says {
             padding: 20px;
-            width: 339px;
+            width: 299px;
             height: auto;
             border-radius: 5px;
         }
 
         .margin-bottom-10 {
             margin-bottom: 10px !important;
+        }
+
+        .margin-right-minus-13 {
+            margin-right: -13px !important;
+        }
+
+        .font-family-circular {
+            font-family: 'Circular', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+        } 
+
+        .text-single-project-preview {
+            padding: 20px;
+        }
+
+        .border-radius-0-5-5-0 {
+            border-radius: 0px 5px 5px 0px;
+        }
+
+        .padding-right-none {
+            padding-right: 0px !important;
+        }
+
+        .group-project-preview {
+            background: #fff;
+            border: 0.5px solid #eee;
+            border-radius: 5px;
+        }
+
+        .clamp-2 {
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+        }
+
+        .clamp-1 {
+            -webkit-line-clamp: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+        }
+
+        .width-137 {
+            width: 137px;
+            height: 137px;
+        }
+
+        .color-999 {
+            color: #999 !important;
+        }
+
+        .inline-block {
+            display: inline-block;
+        }
+
+        .label-span-preview {
+            color: #999 !important;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
+
+        label.type-projects {
+            color: #fff;
+            padding: 5px 7px;
+            letter-spacing: 1.2px;
+            font-weight: 500;
+            font-size: 7px;
+            display: inline;
+            border-radius: 3px;
+        }
+
+        .bg-00B27F {
+            background: #00B27F;
+        }
+
+        .bg-000 {
+            background: #000;
         }
