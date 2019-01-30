@@ -6044,3 +6044,23 @@ label.label-for-setting {
                 margin-top: 0px !important;
             }
         }
+
+        .line-height-0 {
+            line-height: 0px;
+        }
+
+        .group-press-says {
+            border: 0px solid #eee;
+            padding: 20px;
+        }
+
+        .content-group-press-says {
+            padding: 20px;
+            width: 339px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .margin-bottom-10 {
+            margin-bottom: 10px !important;
+        }
