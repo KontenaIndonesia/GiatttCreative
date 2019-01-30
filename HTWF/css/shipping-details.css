@@ -44,8 +44,8 @@ body {
             width: 100%;
             min-height: 28px;
             border: 0;
-            font-size: 1rem;
-            letter-spacing: 0.15rem;
+            font-size: 10px;
+            letter-spacing: 0.035rem;
             font-family: "Circular", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, sans-serif;
             margin-top: 5px;
             color: #8e2807;

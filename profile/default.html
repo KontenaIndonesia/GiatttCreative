@@ -37,7 +37,7 @@
                     <div class="nav navbar-nav navbar-left">
                         <span><i class="fa fa-phone"></i>+62-852-1069-7358</span>
                         <hr />
-                        <span><i class="fa fa-envelope-o"></i>art@giattt.com</span>
+                        <span><i class="fa fa-envelope-o"></i>clara@giattt.com</span>
                         <hr />
                         <span><i class="fa fa-clock-o"></i> Mon - Sat: 9:00 - 18:00 </span>
                     </div>
@@ -131,6 +131,7 @@
 		<div class="content container padding-top-30 padding-bottom-30 text-center">
 			<div class="row">
 				<!--START TAB 1-->
+				<div class="my-instashow"></div>
 				<div class="tab1-c col-md-12">
 					<div class="col-md-3 width-fixed">
 						<img class="lazyload image-scroll-active-img" src="https://adixazoden.cloudimg.io/width/495/n/https://drive.google.com/uc?id=17LUc3eUyGOiyGVTGgVDIIu-tHxITGxNe"/>
@@ -329,6 +330,7 @@
 		<script src="../HTWF/scripts/simplecartjs/simpleCart.js"></script>
 		<script src="../HTWF/scripts/faq-details.js"></script>
 		<script src="../HTWF/scripts/nav-sticky.js"></script>
+		<script src="../HTWF/scripts/instashow/elfsight-instagram-feed.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
 		<script>
 			$('.tab1-c').show();
@@ -352,6 +354,20 @@
 			$('.tab3-c').show();
 			$('.tab4-c').hide();
 			})
+		</script>
+		<script>
+			document.addEventListener('appReady.EappsInstagramFeed', function() {  
+				$('.my-instashow').eappsInstagramFeed({
+					api: ' ',
+					source: ' ',
+					width: 'auto',
+					layout: 'grid',
+					columns: 5,
+					rows: 3,
+					lang: 'en',
+					accessToken: '5784244098.e95f709.b2067f807fdc4cd2935d7995966789d4'
+				});
+			};
 		</script>
 	</footer>
 </body>
