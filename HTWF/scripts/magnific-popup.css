@@ -231,6 +231,11 @@ button::-moz-focus-inner {
     opacity: 0;
 }
 
+#services .mfp-close-btn-in .mfp-close {
+    background: #00B27F;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.13);
+}
+
 .mfp-counter {
     position: fixed;
     bottom: 2px;
@@ -327,10 +332,19 @@ button::-moz-focus-inner {
     padding-bottom: 40px;
 }
 
+#services .mfp-iframe-holder {
+    padding-top: 10px;
+    padding-top: 10px;
+}
+
     .mfp-iframe-holder .mfp-content {
         line-height: 0;
         width: 100%;
         max-width: 900px;
+    }
+
+    #services .mfp-iframe-holder .mfp-content {
+        max-width: 100%;
     }
 
     .mfp-iframe-holder .mfp-close {

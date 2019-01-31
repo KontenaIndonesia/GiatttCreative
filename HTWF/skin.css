@@ -6091,6 +6091,14 @@ label.label-for-setting {
             border-radius: 5px;
         }
 
+        .clamp-4 {
+            -webkit-line-clamp: 4;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+        }
+
         .clamp-2 {
             -webkit-line-clamp: 2;
             overflow: hidden;
