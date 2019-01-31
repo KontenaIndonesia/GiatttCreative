@@ -350,12 +350,16 @@ button::-moz-focus-inner {
         top: 0px;
     }
 
-.mfp-iframe-scaler {
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    padding-top: 56.25%;
-}
+    .mfp-iframe-scaler {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        padding-top: 56.25%;
+    }
+
+    #blog .mfp-iframe-scaler {
+        padding-top: 100%;
+    }
 
     .mfp-iframe-scaler iframe {
         position: absolute;
