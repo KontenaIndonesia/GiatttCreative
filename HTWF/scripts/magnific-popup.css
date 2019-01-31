@@ -231,8 +231,8 @@ button::-moz-focus-inner {
     opacity: 0;
 }
 
-#services .mfp-close-btn-in .mfp-close {
-    background: #00B27F;
+#services .mfp-close-btn-in .mfp-close, #blog .mfp-close-btn-in .mfp-close {
+    background: #FF623B;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.13);
 }
 
@@ -332,9 +332,8 @@ button::-moz-focus-inner {
     padding-bottom: 40px;
 }
 
-#services .mfp-iframe-holder {
-    padding-top: 10px;
-    padding-top: 10px;
+#services .mfp-iframe-holder, #blog .mfp-iframe-holder {
+    padding: 20px;
 }
 
     .mfp-iframe-holder .mfp-content {
@@ -343,7 +342,7 @@ button::-moz-focus-inner {
         max-width: 900px;
     }
 
-    #services .mfp-iframe-holder .mfp-content {
+    #services .mfp-iframe-holder .mfp-content, #blog .mfp-iframe-holder .mfp-content {
         max-width: 100%;
     }
 
