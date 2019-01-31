@@ -6211,4 +6211,8 @@ label.label-for-setting {
             height: 128px;
             width: 128px;
         }
+
+        .border-radius-3 {
+            border-radius: 3px;
+        }
         
