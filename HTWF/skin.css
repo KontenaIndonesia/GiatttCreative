@@ -6172,3 +6172,21 @@ label.label-for-setting {
         .before-2618::before {
             content: "\2618	";
         }
+
+        .before-25b2::before {
+            content:"\25b2"
+        }
+
+        .vote-link {
+            background: #00B27F;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+            padding: 5px !important;
+            font-size: 11px !important;
+            font-weight: 500;
+            border: 0px solid #fff !important;
+            border-radius: 3px !important;
+            display: block;
+        }
