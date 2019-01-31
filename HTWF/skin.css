@@ -6164,3 +6164,11 @@ label.label-for-setting {
             background: #eee;
             color: #205d76 !important;
         }
+
+        .before-261D::before {
+            content:"\261D";
+        }
+
+        .before-2618::before {
+            content: "\2618	";
+        }
