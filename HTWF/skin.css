@@ -4475,8 +4475,8 @@ img.eapps-instagram-feed-posts-item-image {
 }
 
 #blog .featured-preview-text {
-    -webkit-line-clamp: 3;
-    max-height: 70px;
+    -webkit-line-clamp: 4;
+    max-height: 100%;
 }
 
 .padding-none {
@@ -6167,14 +6167,17 @@ label.label-for-setting {
 
         .before-261D::before {
             content:"\261D";
+            font-size: 11px;
         }
 
         .before-2618::before {
             content: "\2618	";
+            font-size: 11px;
         }
 
         .before-25b2::before {
-            content:"\25b2"
+            content:"\25b2";
+            font-size: 11px;
         }
 
         .vote-link {
@@ -6191,8 +6194,13 @@ label.label-for-setting {
             display: block;
         }
 
+        .vote-link:hover {
+            background: #205d76;
+        }
+
         .before-1f4cd::before {
             content: '\1f4cd';
+            font-size: 11px;
         }
 
         .font-weight-200 {
@@ -6215,4 +6223,28 @@ label.label-for-setting {
         .border-radius-3 {
             border-radius: 3px;
         }
-        
+
+        .before-26A1::before {
+            content: "\26A1";
+            font-size: 11px;
+        }
+
+        .before-2615::before {
+            content:"\2615";
+            font-size: 11px;
+        }
+
+        .before-2693::before {
+            content: "\2693";
+            font-size: 11px;
+        }
+
+        .border-dashed-2-eee {
+            border: 2px dashed #fff;
+            background: none;
+        }
+
+        .before-26F4::before {
+            content: "\26F4";
+            font-size: 11.5px;
+        }
