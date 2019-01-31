@@ -6194,3 +6194,21 @@ label.label-for-setting {
         .before-1f4cd::before {
             content: '\1f4cd';
         }
+
+        .font-weight-200 {
+            font-weight: 200;
+        }
+
+        .letter-spacing-1-2 {
+            letter-spacing: 1.2px;
+        }
+
+        img {
+            object-fit: cover;
+        }
+
+        .image-cover {
+            height: 128px;
+            width: 128px;
+        }
+        
