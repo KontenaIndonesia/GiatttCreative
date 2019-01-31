@@ -4610,7 +4610,7 @@ a.title-featured-project-upcoming {
 }
 
  input:focus:invalid {
-    background-image: url(https://adixazoden.cloudimg.io/width/18x18/n/https://drive.google.com/uc?id=1S2oJyh3K1Zt1ZfksprysqAXCUjAIVIZX);
+    background-color:#ffbaba; 
     background-position: right center;
     background-repeat: no-repeat;
   }
