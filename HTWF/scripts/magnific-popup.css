@@ -364,7 +364,7 @@ button::-moz-focus-inner {
     }
 
     @media (max-width: 419px){
-        #blog .mfp-iframe-scaler {
+        #blog .mfp-iframe-scaler, #services .mfp-iframe-scaler {
             padding: 100% 10px !important;
         }
     }
