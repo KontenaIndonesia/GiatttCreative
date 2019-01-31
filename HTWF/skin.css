@@ -6152,3 +6152,15 @@ label.label-for-setting {
         .bg-000 {
             background: #000;
         }
+
+        .iframe-button::after {
+            content: "\1f50d";
+            font-size: 13px;
+        }
+
+        .iframe-button {
+            padding: 0px 10px;
+            border-radius: 3px;
+            background: #eee;
+            color: #205d76 !important;
+        }
