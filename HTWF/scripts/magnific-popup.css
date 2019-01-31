@@ -327,14 +327,20 @@ button::-moz-focus-inner {
     .mfp-arrow-right:before, .mfp-arrow-right .mfp-b {
     }
 
-.mfp-iframe-holder {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
+    .mfp-iframe-holder {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 
-#services .mfp-iframe-holder, #blog .mfp-iframe-holder {
-    padding: 20px;
-}
+    #services .mfp-iframe-holder, #blog .mfp-iframe-holder {
+        padding: 20px;
+    }
+
+    @media (max-width: 419px){
+        #services .mfp-iframe-holder, #blog .mfp-iframe-holder {
+            padding: 0px;
+        }
+    }
 
     .mfp-iframe-holder .mfp-content {
         line-height: 0;
@@ -357,8 +363,10 @@ button::-moz-focus-inner {
         padding-top: 56.25%;
     }
 
-    #blog .mfp-iframe-scaler {
-        padding-top: 100%;
+    @media (max-width: 419px){
+        #blog .mfp-iframe-scaler {
+            padding: 100% 10px !important;
+        }
     }
 
     .mfp-iframe-scaler iframe {
