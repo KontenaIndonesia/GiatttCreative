@@ -6190,3 +6190,7 @@ label.label-for-setting {
             border-radius: 3px !important;
             display: block;
         }
+
+        .before-1f4cd::before {
+            content: '\1f4cd';
+        }
