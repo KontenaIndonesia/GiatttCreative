@@ -5853,7 +5853,7 @@ label.label-for-setting {
 
         @media screen and (max-width: 419px) {
             .mobile-display-none {
-                display: none;
+                display: none !important;
             }
         }
 
