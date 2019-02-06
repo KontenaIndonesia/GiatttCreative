@@ -6194,6 +6194,16 @@ label.label-for-setting {
             color: #205d76 !important;
         }
 
+        .before-26FA::before {
+            content: "\26FA";
+            font-size: 11px;
+        }
+
+        .before-26B1::before {
+            content: "\26B1";
+            font-size: 11px;
+        }
+
         .before-261D::before {
             content:"\261D";
             font-size: 11px;
