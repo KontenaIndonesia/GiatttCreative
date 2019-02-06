@@ -113,10 +113,9 @@
 			<button class="sticky-menu-yes margin-top-services" onclick="location.href='#advantages'">Advantages</button>
 			<button class="sticky-menu-yes margin-top-services" onclick="location.href='#rewards'">Rewards</button>
 			<button class="sticky-menu-yes margin-top-services" onclick="location.href='#monetize'">Monetize</button>
-			<button class="sticky-menu-yes" onclick="location.href='#faq'">FAQ</button>
 			<button class="sticky-menu-yes" onclick="location.href='#timeline'">Timeline</button>
 			<button class="sticky-menu-yes" onclick="location.href='#footer'">Team</button>
-			<button class="five sticky-menu-yes tablink-trigger cta-to-cart-services padding-none" onClick="location.href='../order/shipping-details.html'">
+			<button class="five sticky-menu-yes tablink-trigger cta-to-cart-services padding-none display-none" onClick="location.href='../order/shipping-details.html'">
 				<!--<span class="checkout-plaged-active total-plaged">-->
 				<sup class="sup-button-cart simpleCart_quantity"></sup> 
 				<svg width="35px" height="35px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 100 100" width="100mm" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css">
@@ -127,7 +126,7 @@
 			</button>
 
 			<!--Button Cart-->
-			<button class="sticky-menu-yes tablink-right padding-bottom-0" onClick="location.href='../order/shipping-details.html'">
+			<button class="sticky-menu-yes tablink-right padding-bottom-0 display-none" onClick="location.href='../order/shipping-details.html'">
 				<span class="checkout-plaged-active total-plaged">
 					<sup class="sup-button-cart simpleCart_quantity"></sup> 
 					<svg width="35px" height="35px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 100 100" width="100mm" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css">
@@ -182,22 +181,25 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-2 mobile-display-none fixed-area" data-topscroll="80" data-bottom="400">
+				<div class="col-md-2 fixed-area" data-topscroll="80" data-bottom="400">
 					<div class="col-md-12 padding-none">
 						<div class="content border-radius-3 bg-fff">
-							<a href="mailto:clara@giattt.com?&subject=Claim%20Project%20Listing&body=Hi%20there,%20i%20want%20to%20claim%20my%20project%20listing%20on%20giattt.%20Can%20you%20help%20me?" class="report footer-link" target="_blank">
-								This is yours?
-							</a>
-							<hr class="space xs">
-							<a href="mailto:clara@giattt.com?&subject=Report%20Issue%20Listing&body=Hi%20there,%20i%20want%20to%20report%20an%20issue%20on%20giattt%20project%20listing!" class="report footer-link" target="_blank">
-								Report issue!
-							</a>
-							<hr class="space xs">
-							<a href="mailto:clara@giattt.com?&subject=Vote%20The%20Project&body=Hi%20there,%20i%20want%20to%20vote%20a%20project%20listing!" class="report vote-link" target="_blank">
-								<span class="before-25b2"></span>
-								Vote
-							</a>
-							<hr class="space xs">
+							<div class="group-24288 mobile-display-none">
+								<a href="mailto:clara@giattt.com?&subject=Claim%20Project%20Listing&body=Hi%20there,%20i%20want%20to%20claim%20my%20project%20listing%20on%20giattt.%20Can%20you%20help%20me?" class="report footer-link" target="_blank">
+									This is yours?
+								</a>
+								<hr class="space xs">
+								<a href="mailto:clara@giattt.com?&subject=Report%20Issue%20Listing&body=Hi%20there,%20i%20want%20to%20report%20an%20issue%20on%20giattt%20project%20listing!" class="report footer-link" target="_blank">
+									Report issue!
+								</a>
+								<hr class="space xs mobile-display-none">
+							</div>
+							<div class="group-374667 text-center">
+								<a href="mailto:clara@giattt.com?&subject=Request%20The%20Project&body=Hi%20there,%20i%20want%20to%20request%20on%20project%20listing!" class="report vote-link" target="_blank">
+									Request
+								</a>
+								<hr class="space xs">
+							</div>
 						</div>
 					</div>
 				</div>
@@ -214,7 +216,7 @@
 			<div class="row">
 				<div class="col-md-2 padding-none mobile-display-none"></div>
 				<div class="col-md-8 padding-none text-center scrolling-wrapper-flexbox group-press-says">
-					<div class="card content-group-press-says pointer-active text-left bg-FAF9F5" onclick="window.open('https://www.contentfac.com/7-secrets-of-professional-seo-writers/')">
+					<div class="card content-group-press-says pointer-active text-left bg-FAF9F5 mask_white-std" onclick="window.open('https://www.contentfac.com/7-secrets-of-professional-seo-writers/')">
 						<h4 class="title-option-pladge font-weight-500 line-height-20 margin-bottom-10 underline ">
 							9 Secrets of professional SEO article writers
 						</h4>
@@ -226,7 +228,7 @@
 							By Kari DePhillips 
 						</span>
 					</div>
-					<div class="card content-group-press-says pointer-active text-left bg-FAF9F5" onclick="window.open('https://neilpatel.com/blog/optimize-blog-articles-rank-high-google/')">
+					<div class="card content-group-press-says pointer-active text-left bg-FAF9F5 mask_white-std" onclick="window.open('https://neilpatel.com/blog/optimize-blog-articles-rank-high-google/')">
 						<h4 class="title-option-pladge font-weight-500 line-height-20 margin-bottom-10 underline ">
 							How to make every blog article you write rank high in google search
 						</h4>
@@ -238,7 +240,7 @@
 							By Neil Patel 
 						</span>
 					</div>
-					<div class="card content-group-press-says pointer-active text-left bg-FAF9F5" onclick="window.open('https://blog.hubspot.com/marketing/blog-search-engine-optimization')">
+					<div class="card content-group-press-says pointer-active text-left bg-FAF9F5 mask_white-std" onclick="window.open('https://blog.hubspot.com/marketing/blog-search-engine-optimization')">
 						<h4 class="title-option-pladge font-weight-500 line-height-20 margin-bottom-10 underline ">
 							Blog SEO: how to search engine optimize your blog content
 						</h4>
@@ -250,7 +252,7 @@
 							By Lindsay Kolowich
 						</span>
 					</div>
-					<div class="card content-group-press-says pointer-active text-left bg-FAF9F5" onclick="window.open('https://blog.hubspot.com/marketing/blogging-for-seo')">
+					<div class="card content-group-press-says pointer-active text-left bg-FAF9F5 mask_white-std" onclick="window.open('https://blog.hubspot.com/marketing/blogging-for-seo')">
 						<h4 class="title-option-pladge font-weight-500 line-height-20 margin-bottom-10 underline ">
 							Blogging for SEO: how to write blogs that rank on page one
 						</h4>
@@ -333,10 +335,10 @@
 				<div class="col-md-5 padding-none">
 					<div class="col-md-12">
 						<div class="row">
-							<div class="col-md-4 padding-20 text-center">
-								<img class="lazy width-110" src="https://adixazoden.cloudimg.io/cdn/n/n/https://drive.google.com/uc?id=1JiObHAfSfRMZNjGtVJGLBasaoM9SIUZZ">
+							<div class="col-md-2 padding-10-20-20-20 text-center mobile-display-none">
+								<img class="lazy width-48" src="https://adixazoden.cloudimg.io/cdn/n/n/https://drive.google.com/uc?id=1JiObHAfSfRMZNjGtVJGLBasaoM9SIUZZ">
 							</div>
-							<div class="col-md-8 padding-none">
+							<div class="col-md-10 padding-none">
 								<h2 class="font-weight-500 color-222 font-size-20 line-height-30">
 									Original, readable, seo friendly, and based on user experience
 								</h2>
@@ -350,10 +352,10 @@
 				<div class="col-md-5 padding-none">
 					<div class="col-md-12">
 						<div class="row">
-							<div class="col-md-4 padding-20 text-center">
-								<img class="lazy width-110" src="https://adixazoden.cloudimg.io/cdn/n/n/https://drive.google.com/uc?id=1ShUhDvsjyKZTG6Eovj84_l34-C19iGos">
+							<div class="col-md-2 padding-10-20-20-20 text-center mobile-display-none">
+								<img class="lazy width-48" src="https://adixazoden.cloudimg.io/cdn/n/n/https://drive.google.com/uc?id=1ShUhDvsjyKZTG6Eovj84_l34-C19iGos">
 							</div>
-							<div class="col-md-8 padding-none">
+							<div class="col-md-10 padding-none">
 								<h2 class="font-weight-500 color-222 font-size-20 line-height-30">
 									Unlimited revision guarantee
 								</h2>
@@ -373,10 +375,10 @@
 				<div class="col-md-5 padding-none">
 					<div class="col-md-12">
 						<div class="row">
-							<div class="col-md-4 padding-20 text-center">
-								<img class="lazy width-110" src="https://adixazoden.cloudimg.io/cdn/n/n/https://drive.google.com/uc?id=1KfkwRzPiTnPVZxOSs_2gjS2nVVpDPMKw">
+							<div class="col-md-2 padding-10-20-20-20 text-center mobile-display-none">
+								<img class="lazy width-48" src="https://adixazoden.cloudimg.io/cdn/n/n/https://drive.google.com/uc?id=1KfkwRzPiTnPVZxOSs_2gjS2nVVpDPMKw">
 							</div>
-							<div class="col-md-8 padding-none">
+							<div class="col-md-10 padding-none">
 								<h2 class="font-weight-500 color-222 font-size-20 line-height-30">
 									Available for blog, landing page, product description
 								</h2>
@@ -412,7 +414,7 @@
 		<div class="col-md-12 text-center">
 			<svg class="down-desc" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M255.8 218c-21 0-38 17-38 38s17 38 38 38 38-17 38-38-17-38-38-38zM102 218c-21 0-38 17-38 38s17 38 38 38 38-17 38-38-17-38-38-38zM410 218c-21 0-38 17-38 38s17 38 38 38 38-17 38-38-17-38-38-38z"/></svg>
 		</div>
-		<hr class="space">
+		<hr class="space mobile-display-none">
 		<div id="rewards" class="col-md-12">
 			<div class=" container">
 				<div class="col-md-1"></div>
@@ -573,300 +575,79 @@
 		</div>
 		<div class="col-md-12 bg-FAF9F5">
 		<hr class="space mobile-display-none">
-		<div class="container">
-			<div class="col-md-4">
-				<div class="col-md-12 padding-none bg-fff border-radius-8">
-					<!--PACKAGE 1-->
-					<div class="option-pladge border-0-solid-fff text-center simpleCart_shelfItem">
-						<h4 class="title-option-pladge text-left font-weight-500 item_name">
-							<span class="greeting-for">Send </span>
-								Perk $1 or more
-							<span class="greeting-for">for Dana</span>
-							</h4>
-							<input type="text" value="1" class="item_Quantity" style="display: none;">
-							<h4 class="title-option-pladge title-option-pladge-medium margin-bottom-0 text-left line-height-25">
-								Your donation will help this project still alive and grow.  
-							</h4>
-							<hr class="space xs">
-							<p class="description-p-active">Choose how much you want to give for the owner. You'll get the special reward. </p>
-							<div class="includes-support">
-								<span class="include-support-span before-26A1">
-									$0 sent to owner
-								</span>
-							</div>
-							<hr class="space xs">
-							<input class="input-pladge-one item_price" type="number" size="1" min="1" required title="$1 minimum" minlength="1" placeholder="start from $1">
-							<div class="label-usd"><span>usd</span></div>
-							<br>
-							<button type="button" href="javascript:;" class="pledge-button btn btn-sm text-center item_add" style="background-color: #205d76; border-color: #205d76; width: 100%;">
-								Perk me up
-							</button>
+			<div class="container">
+				<div class="col-md-3">
+					<div class="margin-top-0 monetize-after header-about-creator font-weight-300 color-222 font-size-27 line-height-40">
+						What do you want on this projects?
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="monetize-after">
+						<p class="">
+							We provide various projects request on this site. You can ask to <b>buy products</b>, <b>online course</b>, custom order <b>(commission)</b>, <b>hire as team</b>, <b>collaboration</b>, online <b>live performing</b>, <b>webinar</b>, <b>subscription</b>, and others what you think here. 
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="option-pladge border-0-solid-fff text-center padding-none">
+						<p class="description-p-active">
+							We will make sure that all you want will be memorable and satisfying. Please, describe your thoughts about on the button request.
+						</p>
+						<hr class="space xs">
+						<div class="margin-top-0 font-weight-300 color-222 font-size-15 line-height-24 text-left">
+							We are committed to sending your money 100% to the project owner. This does not include transaction and processing fees charged by PayPal.
 						</div>
 					</div>
 				</div>
-			<div class="col-md-4">
-					<div class="col-md-12 padding-none bg-fff border-radius-8">
-						<!--PACKAGE 2-->
-						<div class="option-pladge border-0-solid-fff text-center simpleCart_shelfItem">
-							<h4 class="title-option-pladge text-left font-weight-500">Perk $7 or more</h4>
-							<input type="text" value="1" class="item_Quantity" style="display: none;">
-							<h4 class="title-option-pladge title-option-pladge-medium margin-bottom-0 text-left item_name"><span class="greeting-for">Package: </span>SEO copywriting in bahasa</h4>
-							<p class="description-p-active">
-								Buy $0.006/word. If you need more, increase the form price below as you need. 
-							</p>
-							<div class="includes-support">
-								<span class="include-support-span">
-									includes:
-								</span>
-								<ul class="include-support-ul">
-									<li>1000 words minimum order </li>
-									<li>Editable format</li>
-									<li>Free 20 words/article</li>
-									<li>Various topic and style</li>
-									<li>Exclude image</li>
-								</ul>
-							</div>
-							<div class="details-deliverable-info clearfix">
-								<div class="col-50-persen">
-									<span class="delivery-estimate">
-										estimated delivery
-									</span>
-									<span class="delivery-estimate-date">
-										3 working days
-									</span>
-								</div>
-								<div class="col-50-persen">
-									<span class="delivery-estimate">
-										ships to
-									</span>
-									<span class="delivery-estimate-date">
-										Anywhere in the world
-									</span>
-								</div>
-							</div>
-							<br>
-							<input class="input-pladge-one item_price" type="number" size="7" min="7" required title="$7 minimum" minlength="7" placeholder="start from 7">
-							<div class="label-usd"><span>usd</span></div>
-							<br>
-							<a href="javascript:;" type="submit" class="pledge-button btn btn-sm text-center item_add" style="background-color: #205d76; border-color: #205d76;">Perk me up</a>
-						</div>
-					</div>
-				</div>
-			<div class="col-md-4">
-					<div class="col-md-12 padding-none bg-fff border-radius-8 scrolling-wrapper-flexbox">
-						<!--PACKAGE 3-->
-						<div class="card option-pladge border-0-solid-fff text-center simpleCart_shelfItem">
-							<h4 class="title-option-pladge text-left font-weight-500">Perk $14 or more</h4>
-							<input type="text" value="1" class="item_Quantity" style="display: none;">
-							<h4 class="title-option-pladge title-option-pladge-medium margin-bottom-0 text-left item_name"><span class="greeting-for">Package: </span>SEO copywriting in english</h4>
-							<p class="description-p-active">
-								Buy $0.014/word. If you need more, increase the form price below as you need. 
-							</p>
-							<div class="includes-support">
-								<span class="include-support-span">
-									includes:
-								</span>
-								<ul class="include-support-ul">
-									<li>1000 words minimum order </li>
-									<li>Editable format</li>
-									<li>Free 20 words/article</li>
-									<li>Various topic and style</li>
-									<li>Exclude image</li>
-								</ul>
-							</div>
-							<div class="details-deliverable-info clearfix">
-								<div class="col-50-persen">
-									<span class="delivery-estimate">
-										estimated delivery
-									</span>
-									<span class="delivery-estimate-date">
-										3 working days
-									</span>
-								</div>
-								<div class="col-50-persen">
-									<span class="delivery-estimate">
-										ships to
-									</span>
-									<span class="delivery-estimate-date">
-										Anywhere in the world
-									</span>
-								</div>
-							</div>
-							<br>
-							<input class="input-pladge-one item_price" type="number" size="14" min="14" required title="$14 minimum" minlength="10" placeholder="start from 14">
-							<div class="label-usd"><span>usd</span></div>
-							<br>
-							<a href="javascript:;" type="submit" class="pledge-button btn btn-sm text-center item_add" style="background-color: #205d76; border-color: #205d76;">Perk me up</a>
-						</div>
-						<div class="card option-pladge border-0-solid-fff text-center display-none">
-							<h4 class="title-option-pladge text-left font-weight-500">Perk $10 or more</h4>
-							<input type="text" value="1" class="item_Quantity" style="display: none;">
-							<h4 class="title-option-pladge title-option-pladge-medium margin-bottom-0 text-left item_name"><span class="greeting-for">Package: </span>Sticker + pin erner</h4>
-							<p class="description-p-active">Get 7 sticker and pin emner. What really do you want?</p>
-							<div class="includes-support">
-								<span class="include-support-span">
-									includes:
-								</span>
-								<ul class="include-support-ul">
-									<li>3 sticker</li>
-									<li>4 pin enner</li>
-								</ul>
-							</div>
-							<div class="details-deliverable-info clearfix">
-								<div class="col-50-persen">
-									<span class="delivery-estimate">estimated delivery</span>
-									<span class="delivery-estimate-date">Feb 2019</span>
-								</div>
-								<div class="col-50-persen">
-									<span class="delivery-estimate">ships to</span>
-									<span class="delivery-estimate-date">Anywhere in the world</span>
-								</div>
-							</div>
-							<br>
-							<input class="input-pladge-one item_price" type="number" size="10" min="10" required title="$10 minimum" minlength="10" placeholder="10">
-							<div class="label-usd"><span>usd</span></div>
-							<br>
-							<a href="javascript:;" type="submit" class="pledge-button btn btn-sm text-center item_add" style="background-color: #205d76; border-color: #205d76;">Perk me up</a>
-						</div>
-					</div>
-					<div class="scroll-left-second scroll-project-active display-none">swipe</div>
-				</div>
+				<hr class="space">
 			</div>
-			<hr class="space">
 		</div>
 	</div>
-	<div id="faq" class="section-bg-image bg-FAF9F5">
-		<div class="col-md-12">
-			<div class="col-md-3"></div>
-			<div class="col-md-6 padding-none">
-				<hr class="space">
-				<h4 class="header-about-creator text-center font-weight-500">
-					Frequently Asked Questions
-				</h4>
-				<p class="margin-top-plus-5 text-center">
-					Here are some common questions about this project
-				</p>
-			</div>
-		</div>
-		<hr class="space">
-		<div class="col-md-12">
-			<div class="group-content">
-				<div class="col-md-12">
-					<div class="group-content">
-						<div class="col-md-6">
-							<div class="group-content">
-								<div class="group-faq-question-answer">
-									<div class="col-md-12 padding-none">
-										<p class="font-size-20 font-weight-500 line-height-25">
-											How much you can create per day?
-										</p>
-									</div>
-									<div class="col-md-12 margin-top-plus-10 padding-none">
-										<p>
-											Four to six article. I am using some steps to produce, like: create the article structure, collect the related source, and insert the keword target.
-										</p>
-									</div>
-								</div>
-								<hr class="space m">
-								<div class="group-faq-question-answer">
-									<div class="col-md-12 padding-none">
-										<p class="font-size-20 font-weight-500 line-height-25">
-											How to step by step order?
-										</p>
-									</div>
-									<div class="col-md-12 margin-top-plus-10 padding-none">
-										<p>
-											Make sure where do you want to publish the article, blog? landing page? Or ecommerce page? on the other hand you can put to something else, maybe for email, social media caption, or google ads text. if you have done, search the expected article and keyword target. Finally, touch me.
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="group-content">
-								<div class="group-faq-question-answer">
-									<div class="col-md-12 padding-none">
-										<p class="font-size-20 font-weight-500 line-height-25">
-											If I order 100 item (article), can you manage it? And how to do that?
-										</p>
-									</div>
-									<div class="col-md-12 margin-top-plus-10 padding-none">
-										<p>
-											Very challenging! Before to work, I need some confirmation to make writing more faster. The 100 items will split into 20 item /day.  Writing process just need 5 to 7 days.
-										</p>
-									</div>
-								</div>
-								<hr class="space m display-none">
-								<div class="group-faq-question-answer display-none">
-									<div class="col-md-12 padding-none">
-										<p class="font-size-20 font-weight-500 line-height-25">
-											What really "100% Unlimited revision"?
-										</p>
-									</div>
-									<div class="col-md-12 margin-top-plus-10 padding-none">
-										<p>
-											Revision and unlimited are the best word combination. For you, sounds good. This guarantee is not joke. I will re-write or editing the article if you feel unsatisfied. But, guarantee valid for simple editing, do not replace structure or change the topic.
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="timeline" class="col-md-12 mobile-margin-top-0">
-			<div class="col-md-3"></div>
-			<div class="col-md-6 padding-none">
-				<div class="cd-horizontal-timeline bg-fff border-radius-3">
-					<div class="timeline">
-						<div class="events-wrapper">
-							<div class="events width-100-persen">
-								<ol class="list-style-type-none">
-									<li>
-										<a href="#0" class="selected" data-date="01/02/2019">
-											01 Feb
-										</a>
-									</li>
-									<li>
-										<a href="#0" data-date="01/12/2016">
-											01 Dec
-										</a>
-									</li>
-								</ol>
-
-								<span class="filling-line" aria-hidden="true"></span>
-							</div> <!-- .events -->
-						</div> <!-- .events-wrapper -->
-							
-						<ul class="cd-timeline-navigation list-style-none">
-							<li><a href="#0" class="prev inactive">Prev</a></li>
-							<li><a href="#0" class="next">Next</a></li>
-						</ul> <!-- .cd-timeline-navigation -->
-					</div> <!-- .timeline -->
-
-					<div class="events-content padding-0-20-20-20 margin-top-0-12121 height-100">
+	<div id="timeline" class="section-bg-image bg-FAF9F5">
+		<div class="cd-horizontal-timeline bg-fff border-radius-3">
+			<div class="timeline">
+				<div class="events-wrapper">
+					<div class="events width-100-persen">
 						<ol class="list-style-type-none">
-							<li class="selected" data-date="01/02/2019">
-								<span class="delivery-estimate font-weight-700">
-									01 February 2019
-								</span>
-								<p class="font-size-13 clamp-2">	
-									Our fisher <b>getting this idea and published </b>on Giattt Creative Labs. The staff will contacting the idea owner as soon as possible.
-								</p>
+							<li>
+								<a href="#0" class="selected" data-date="01/02/2019">
+									01 Feb
+								</a>
 							</li>
-							<li data-date="01/12/2016">
-								<span class="delivery-estimate font-weight-700">
-									01 December 2016
-								</span>
-								<p class="font-size-13 clamp-2">	
-									The idea has been released by the owner.
-								</p>
+							<li>
+							<a href="#0" data-date="01/12/2016">
+								01 Dec
+							</a>
 							</li>
 						</ol>
-					</div> <!-- .events-content -->
-				</div>
-			</div>
+						<span class="filling-line" aria-hidden="true"></span>
+					</div> <!-- .events -->
+				</div> <!-- .events-wrapper -->			
+				<ul class="cd-timeline-navigation list-style-none">
+					<li><a href="#0" class="prev inactive">Prev</a></li>
+					<li><a href="#0" class="next">Next</a></li>
+				</ul> <!-- .cd-timeline-navigation -->
+			</div> <!-- .timeline -->
+			<div class="events-content padding-0-20-20-20 margin-top-0-12121 height-100">
+				<ol class="list-style-type-none">
+					<li class="selected" data-date="01/02/2019">
+						<span class="delivery-estimate font-weight-700 text-center">
+							01 February 2019
+						</span>
+						<p class="font-size-13 text-center clamp-3">	
+							Our fisher <b>getting this idea and published </b>on Giattt Creative Labs. The staff will contacting the idea owner as soon as possible.
+						</p>
+					</li>
+					<li data-date="01/12/2016">
+						<span class="delivery-estimate font-weight-700 text-center">
+							01 December 2016
+						</span>
+						<p class="font-size-13 text-center">	
+							The idea has been released by the owner.
+						</p>
+					</li>
+				</ol>
+			</div> <!-- .events-content -->
 		</div>
 	</div>
 	<div id="footer" class="section-bg-image bg-FAF9F5 footer-hero-image">
@@ -880,14 +661,7 @@
 				<p class="margin-top-plus-5 text-center color-fff">
 					This project created by The innovator team below. Give your totally support to keep this project be longevity.  
 				</p>
-				<hr class="space">
-				<div class="col-md-12 text-center">
-					<a href="../profile/default.html" class="btn-sm text-center group-button-style font-size-13 capitalize pointer-none">
-						<span class="font-size-10">by</span> Kontena Indonesia
-					</a>
-				</div>
 				<hr class="space xs">
-				<p class="color-fff text-center font-size-10">member:</p>
 			</div>
 		</div>
 		<div class="col-md-12 text-center mobile-margin-top-0">
@@ -917,6 +691,8 @@
 				</div>
 			</div>
 		</div>
+		<hr class="space">
+		<hr class="space mobile-display-none">
 	</div>
 	<div class="section-bg-image bg-FAF9F5">
 		<hr class="space">
@@ -927,6 +703,7 @@
 			<div class="col-md-4 text-left">
 				<div class="group-footer-link scrolling-wrapper-flexbox">
 					<a class="card width-auto footer-link" href="#"> Giattt Loka Cipta Team's</a>,<a class="card width-auto footer-link pointer-none" href="https://www.flaticon.com"> Flaticon</a>
+					<a class="card width-auto footer-link pointer-none" href="https://www.goodreads.com/quotes"> Goodreads</a>
 				</div>
 				<p class="p-footer-link line-height-17">This page design inspire from <a class="footer-link" href="#"> Etsy</a> UI/UX. The resource create custom using Framework. Feel free contact us if you need something about.</p>
 			</div>

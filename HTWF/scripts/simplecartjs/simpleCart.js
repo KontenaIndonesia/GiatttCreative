@@ -90,7 +90,7 @@
 						email: "dana@giattt.com", 
 						success: "https://giattt.com/order/success.html", 
 						cancel: "https://giattt.com/order/failed.html",
-						sandbox: true, 
+						sandbox: false, 
 					},
 					currency				: "USD",
 					language				: "english-us",
@@ -968,7 +968,7 @@
 							, handling_cart : (simpleCart.shipping()*1).toFixed(2)
 							, charset		: "utf-8"
 						},
-						action = opts.sandbox ? "https://www.sandbox.paypal.com/cgi-bin/webscr" : "https://www.paypal.com/cgi-bin/webscr",
+						action = opts.sandbox ? "https://www.sandbox.paypal.com/cgi-bin/webscr" : "https://www.paypal.com/us/cgi-bin/webscr?cmd=_ship-now",
 						method = opts.method === "GET" ? "GET" : "POST";
 
 
