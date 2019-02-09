@@ -6136,6 +6136,14 @@ label.label-for-setting {
             -webkit-box-orient: vertical;
         }
 
+        .clamp-279-px {
+            overflow: auto;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            max-height: 279px;
+        }
+
         .width-137 {
             width: 137px;
             height: 137px;
@@ -6292,7 +6300,7 @@ label.label-for-setting {
 
         .cd-horizontal-timeline {
             opacity: 0;
-            margin: 2em auto;
+            margin: 2em auto -2em;
             -webkit-transition: opacity 0.2s;
             -moz-transition: opacity 0.2s;
             transition: opacity 0.2s;
@@ -6444,7 +6452,7 @@ label.label-for-setting {
         }
         @media only screen and (min-width: 1100px) {
             .cd-horizontal-timeline {
-            margin: 3em auto;
+            margin: 3em auto -1.9em;
             }
             .cd-horizontal-timeline::before {
             /* never visible - this is used in jQuery to check the current MQ */
@@ -6851,3 +6859,114 @@ label.label-for-setting {
             border: 1px solid #f2f2f2;
             margin-right: 4px;
         }
+
+        .display-inline-flex {
+            display: inline-flex !important;
+        }
+
+        .monetize-system {
+            max-width: 319px;
+            border-radius: 5px;
+            background: #fff;
+            padding: 15px;
+            border: 2px solid #f9f9f9;
+        }
+
+        .grid {
+            display: inline-flex;
+            grid-template-columns: 25% 25% 25%;
+          }
+          
+          .card-linear-gradient {
+            width: 369px;
+            border-radius: 8px;
+            padding: 30px 10px;
+            border: 0;
+            margin: 10px 15px;
+          }
+          
+          .card1 {
+            background: #2CBA52;
+            /*background: linear-gradient(to bottom right, #FC56F6, #A356FD);
+            box-shadow: 3px 15px 30px rgba(171, 86, 252, 0.75);*/
+          }
+          
+          .card2 {
+            background: #205d76;
+            /*background: linear-gradient(to bottom right, #56D0FD, #56FD7D);
+            box-shadow: 3px 15px 30px rgba(86, 247, 142, 0.75);*/
+          }
+          
+          .card3 {
+            background: #e7bbaa;
+            /*background: linear-gradient(to bottom right, #FDBD56, #FD56B6);
+            box-shadow: 3px 15px 30px rgba(253, 99, 169, 0.75);*/
+          }
+          
+          .card-linear-gradient h3 {
+            color: rgba(255, 255, 255, 0.3);
+            font-size: 40px;
+            font-weight: 900;
+            letter-spacing: 0px;
+          }
+          
+          .card-linear-gradient h4 {
+            color: white !important;
+            font-size: 40px;
+            margin-top: -50px;
+            margin-left: 3px;
+          }
+          
+          .card-linear-gradient h2 {
+            color: rgba(255, 255, 255, 0.15);
+            font-size: 118px;
+            font-weight: 900;
+            position: relative;
+            margin-top: 25px;
+            pointer-events: none;
+          }
+          
+          .card-linear-gradient hr {
+            border-width: 1px;
+            border-color: rgba(255, 255, 255, 0.15);
+            margin-top: 43px;
+          }
+          
+          .card-linear-gradient p:first-of-type {
+            margin-top: 10px;
+          }
+          
+          .card-linear-gradient p {
+            color: white;
+            font-size: 14px;
+            padding: 0px 8px 10px;
+            line-height: 22px;
+          }
+          
+          .card-linear-gradient p:nth-of-type(2) {
+            margin-top: 10px;
+            margin-bottom: 40px;
+          }
+          
+          .card-linear-gradient a {
+            color: white !important;
+            font-size: 13px;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 12px;
+            background-color: rgba(255, 255, 255, 0.3);
+            float: right;
+            border-radius: 3px;
+            transition: background-color 0.5s;
+          }
+          
+          .card-linear-gradient a:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+          }
+          
+          @media only screen and (max-width: 1900px) {
+            .grid {
+              grid-template-columns: 100%;
+              grid-row-gap: 50px;
+            }
+          }          
