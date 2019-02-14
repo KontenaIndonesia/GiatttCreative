@@ -6141,7 +6141,7 @@ label.label-for-setting {
             text-overflow: ellipsis;
             display: -webkit-box;
             -webkit-box-orient: vertical;
-            max-height: 279px;
+            max-height: 299px;
         }
 
         .width-137 {
@@ -6263,8 +6263,8 @@ label.label-for-setting {
         }
 
         .image-cover {
-            height: 128px;
-            width: 128px;
+            height: 139px;
+            width: 139px;
         }
 
         .border-radius-3 {
@@ -6706,6 +6706,10 @@ label.label-for-setting {
             padding: 0px 20px 20px 20px !important;
         }
 
+        .padding-0-5 {
+            padding: 0px 5px !important;
+        }
+
         .height-80 {
             height: 80px !important;
         }
@@ -6969,4 +6973,20 @@ label.label-for-setting {
               grid-template-columns: 100%;
               grid-row-gap: 50px;
             }
-          }          
+          }
+          
+          #myInput {
+            background-image: url('../images/search.png');
+            background-position: 10px 12px;
+            background-repeat: no-repeat;
+            width: 100%;
+            font-size: 12px;
+            padding: 5px 20px 5px 40px;
+            border: 0.5px solid #eee;
+            margin-bottom: 12px;
+            border-radius: 5px;
+          }
+
+          #myUL li {
+            list-style-type: none;
+          }
