@@ -5580,7 +5580,7 @@ label.label-for-setting {
         }
 
         .bg-fff {
-            background: #fff;
+            background-color: #fff !important;
         }
 
         .width-99 {
@@ -7027,4 +7027,8 @@ label.label-for-setting {
             font-size: 12px;
             letter-spacing: 0.5px;
             left: -0.5em;
+        }
+
+        .height-100-persen {
+            height: 100% !important;
         }
